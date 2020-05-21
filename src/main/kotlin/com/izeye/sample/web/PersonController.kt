@@ -1,5 +1,6 @@
 package com.izeye.sample.web
 
+import com.izeye.sample.person.domain.Gender
 import com.izeye.sample.person.domain.Person
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
@@ -16,6 +17,6 @@ import org.springframework.web.bind.annotation.RestController
 class PersonController {
 
     @GetMapping("/{id}")
-    fun get(@PathVariable id: Long): Person = Person(id, "Johnny", "Lim")
+    fun get(@PathVariable id: Long): Person = Person(id, "Johnny", "Lim", Gender.MALE)
 
 }

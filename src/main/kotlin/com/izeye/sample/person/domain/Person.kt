@@ -5,4 +5,4 @@ package com.izeye.sample.person.domain
  *
  * @author Johnny Lim
  */
-data class Person(val id: Long, val firstName: String, val lastName: String)
+data class Person(val id: Long, val firstName: String, val lastName: String, val gender: Gender)
