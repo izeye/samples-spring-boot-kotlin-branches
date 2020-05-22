@@ -10,5 +10,4 @@ import com.fasterxml.jackson.annotation.JsonValue
 enum class Gender(@JsonValue val code: String) {
 
     MALE("M"), FEMALE("F")
-
 }

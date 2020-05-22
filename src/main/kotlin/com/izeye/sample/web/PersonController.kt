@@ -18,5 +18,4 @@ class PersonController {
 
     @GetMapping("/{id}")
     fun get(@PathVariable id: Long): Person = Person(id, "Johnny", "Lim", Gender.MALE)
-
 }
