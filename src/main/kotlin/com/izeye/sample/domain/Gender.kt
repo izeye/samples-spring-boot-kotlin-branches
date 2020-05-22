@@ -1,4 +1,4 @@
-package com.izeye.sample.person.domain
+package com.izeye.sample.domain
 
 import com.fasterxml.jackson.annotation.JsonValue
 
