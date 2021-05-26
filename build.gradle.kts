@@ -48,7 +48,7 @@ tasks.withType<KotlinCompile> {
 }
 
 tasks.wrapper {
-    gradleVersion = "6.4.1"
+    gradleVersion = "7.0.2"
 }
 
 spotless {
